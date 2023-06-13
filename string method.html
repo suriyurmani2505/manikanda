@@ -1,0 +1,31 @@
+<html>
+<body>
+    <h1>STRING LENGTH</h1>
+    <p id="demo"></p>
+    <h1>STRING SLICE</h1>
+    <p id="demo1"></p>
+    <h1>STRING UPPERCASE</h1>
+    <p id="demo2"></p>
+    <h1>STRING LOWERCASE</h1>
+    <p id="demo3"></p>
+    <h1>STRING SUBSTR</h1>
+    <p id="demo4"></p>
+    <h1>STRING CONCAT</h1>
+    <p id="demo5"></p>
+    <script>
+        let text="jfgawruiyhersjkdbhfjhtg";
+        document.getElementById("demo").innerHTML=text.length;
+        let text1="kandanmani";
+        document.getElementById("demo1").innerHTML=text1.slice(0,5);
+        let text2="manikandan";
+        document.getElementById("demo2").innerHTML=text2.toUpperCase();
+        let text3="MANIKANDAN";
+        document.getElementById("demo3").innerHTML=text3.toLowerCase();
+        let text4="manikandan"
+        document.getElementById("demo4").innerHTML=text4.substr(1,5);
+        let t1="red,blue";
+        let t2="orange,green";
+        document.getElementById("demo5").innerHTML=t1.concat(t2); 
+        </script>
+        </body>
+        </html>

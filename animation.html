@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            .body{
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                animation-name: Example;
+                position: relative;
+                
+                animation-iteration-count: 4s;
+                animation-duration: 3s;
+            }
+            @keyframes Example{
+               25% {background-color: blue; left: 200px; top: 0px;}
+               50% {background-color: aqua; left: 200px; top: 200px;}
+               75% {background-color: blue; left: 0; top: 200px;}
+               100%{background-color: chartreuse; left: 0px; top: 0px;}
+            
+           }    
+         </style>
+    </head>
+    <body>
+        <div class="body"></div>
+        <p>This Is Css Animation</p>
+    </body>
+</html>    

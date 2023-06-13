@@ -1,0 +1,58 @@
+<html>
+    <p id="demo"></p>
+    <body>
+<h1>highest number</h1>
+<p id="A"></p>
+<h1>length</h1>
+<p id="B"></p>
+<h1>push</h1>
+<p id="C"></p>
+<h1>pop</h1>
+<p id="D"></p>
+<h1>unshift</h1>
+<p id="E"></p>
+<h1>shift</h1>
+<p id="F"></p>
+<h1>slice</h1>
+<p id="G"></p>
+<h1>join</h1>
+<p id="H"></p>
+<h1>index of</h1>
+<p id="I"></p>
+<h1>sum</h1>
+<p id="J"></p>
+ <h1>sort</h1>
+<p id="K"></p>
+<script>
+        document.getElementById("A").innerHTML=Math.max(7,98,65,83,143,25,01,29);
+    let text1=["mani","felix","vicky","dhanush"];
+    document.getElementById("B").innerHTML=text1.length;
+    let text2=["mani","felix","vicky","dhanush"];
+    text2.push("praveen");
+    document.getElementById("C").innerHTML=text2;
+    let text3=["mani","felix","vicky","dhanush"];
+    document.getElementById("D").innerHTML=text3;
+    text3.pop("dhanush");
+    let text4=["mani","felix","vicky","dhanush"];
+    text4.unshift("mani");
+    document.getElementById("E").innerHTML=text4;
+    let text5=["mani","felix","vicky","dhanush"];
+    text5.shift("vicky");
+    document.getElementById("F").innerHTML=text5;
+    let text6=["mani","felix","vicky","dhanush"];
+    const slic = text6.slice(1,2);
+    document.getElementById("G").innerHTML=slic;
+    let text7=["mani","felix","vicky","dhanush"]
+    const join = text7.join(" / ");
+    document.getElementById("H").innerHTML=join;
+    let text8=["mani","felix","vicky","dhanush"];
+    let index= text8.indexOf("vicky");
+    document.getElementById("I").innerHTML=index;
+    let text9=[5,18,12,10];
+    let sum= text9.sum=[5+18+12+10];
+    document.getElementById("J").innerHTML=sum;
+    let text=["mani","felix","vicky","dhanush"];
+    document.getElementById("K").innerHTML = text.sort();
+</script>
+    </body>
+</html>
